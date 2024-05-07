@@ -1,4 +1,34 @@
- // alert (1)
+// git-hubga qo''shish
+// git add -A birishchi tanlanadi
+//git commit -m "nom beriladi" > commentariya 
+//git push >joylanadi
+
+//git clone > git hub clone codi yozildi
+//clone papkaga yozgan narsalarni joylash uchun cd <papka nomi>
+//git pull >joylanadi
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// -------------------------------------------------------------------------------
+
+// alert (1)
 
 // console.log(salom);
 //------------------------->>>
