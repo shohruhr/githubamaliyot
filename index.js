@@ -270,6 +270,79 @@
 // const name = prompt("Ismimgizni  kiriting", "");
 // console.log(`mening ismim ${name}`);
 
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<17>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// "use strict";
+
+// function getText(text) {    // text qiymati berilgani uchun getText ni chiqaradi.
+//   console.log(text);
+// }
+
+// getText("Hello Text");
+
+
+
+
+// "use strict";
+
+// function getText() {
+//   console.log("hello world");
+// }
+
+// getText();
+
+
+
+// let number = 8;
+
+// function getText(text) {
+//   console.log(text);
+//    number = 10;
+//   console.log(number);
+
+// }
+
+// getText("hello world");
+// console.log(number);
+
+
+let number = 8;  // gobal o'zgaruvchi 
+
+function getText(text) {
+  console.log(text);
+    let number = 10;
+  console.log(number);
+  //ichki o'zgaruvchi.
+
+}
+
+getText("hello world");
+console.log(number);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
