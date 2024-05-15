@@ -14,18 +14,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 // -------------------------------------------------------------------------------
 
 // alert (1)
@@ -86,7 +74,7 @@
 // const arr = ["red", "black", "yellow", {}, [], 10, false]; //sanoq 0 dan boshlanadi
 // console.log(arr[0]);//massivlar hamma qiymatni chiqaradi [ ichidagi ] qiymatni chiqarish
 
-"use strict";
+//"use strict";
 
 //alert("Hello World"); //ok bo'limi faqat
 
@@ -129,7 +117,7 @@
 // const xName = prompt('Enter your name ?', "");
 // console.log(`User's name ${xName}`);
 
-"use strict";
+//"use strict";
 
 // const x = 10,
 //       y = 15;
@@ -230,7 +218,7 @@
 
 
 // ----------------------15----------------------->>>>>>>>>>>>
-"use strict";
+//"use strict";
 
 
 // let x = 5; // let o'zgaruvchi
@@ -306,34 +294,143 @@
 // console.log(number);
 
 
-let number = 8;  // gobal o'zgaruvchi 
+// let number = 8;  // gobal o'zgaruvchi 
 
-function getText(text) {
-  console.log(text);
-    let number = 10;
-  console.log(number);
-  //ichki o'zgaruvchi.
+// function getText(text) {
+//   console.log(text);
+//     let number = 10;
+//   console.log(number);
+//   //ichki o'zgaruvchi.
 
-}
+// }
 
-getText("hello world");
-console.log(number);
-
-
+// getText("hello world");
+// console.log(number);
 
 
+// <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<18>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+// "use strict";
+
+// function playFootball(player, callback) {
+//   console.log(`Name of player ${player}`);
+//   callback();
+// }
+
+// playFootball('MoSalah', function () {
+//   console.log("His shot 100 goals");
+// });
+
+// <<<<<<<<<<<<<<<2-XIL USUL>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+// "use strict";
+
+// function playFootball(player, callback) {
+//   console.log(`Name of player ${player}`);
+//   callback();
+// }
+
+// function goals() {
+//   console.log("His shot 100 goals");
+// }
+
+// playFootball("MoSalah", goals);
 
 
 
 
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<19>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+// const text = "Hello world";
+// const son = [1, 2, 3, 4, 5];
+
+// console.log(son.length);
 
 
 
+// const text = "Hello world";         //console.log(text[son]) <-- qo'yilsa o'sha o'rindagi sonni oladi
+// console.log(text[2]);                                          //sanashni 0 dan boshlaydi. 
 
 
 
+// "use strict"; 
+
+// const text = "Hello world";
+
+// // // // console.log(text[2]);
+
+// // // // console.log((text[0] = "M"));
+// // // // console.log(text);
+
+// // // console.log(text.toLocaleLowerCase());
+// // // console.log(text.toLocaleUpperCase());
+
+// // console.log(text.indexOf("d"));
+
+// console.log(text.slice(6, 11));
+// console.log(text.substr(6, 11));
 
 
+// const number = 8.8;
+// console.log(Math.round(number));
+
+
+// const borderWidth = "12.8px";
+// console.log(parseInt(borderWidth));
+
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<20>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<21>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
+
+// "use  strict";
+
+// const person = {
+//   name: Shohruh, //data type string
+//   lastName: Raahmonqulov,
+//   age: 17, // data type number
+//   wishes: [], //array
+//   language: function() {}, //funksiylar
+//   mother: {
+//     name:"name", 
+//   },
+// };
+
+// const obj = {
+//   name: 'div',
+//   width:400,
+//   height:400,
+//   color:{
+//     border:"crimson",
+//     bg:"coral",
+//   },
+// };
+
+
+// // console.log(obj);
+
+// // delete obj.name;
+
+// // console.log(obj);
+
+// let counter = 0;
+
+
+
+// for(let key in obj) {
+//   if(typeof obj[key] == "object") {
+//     for (let i in obj[key]) {
+//       console.log(`Property ${key} value ${obj[key][i]}`);
+//       counter++;
+//     }
+//   } else{
+//  console.log(`Property ${key} value ${obj[key]}`);
+//  counter++;
+// }
+
+
+// console.log(counter);
 
 
 
