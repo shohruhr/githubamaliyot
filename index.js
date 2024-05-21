@@ -491,33 +491,102 @@
 //<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<23>>>>>>>>>>>>>>>>>>>>>>
 
 
+// let a = 8,
+//     b = a;
+
+// console.log(b+5);
+// console.log(a);
+
+// const bmw = {
+//   color: "black",
+//   isBuy: false,
+// };
+
+// const mers = bmw;
+// mers.color = "white";
 
 
+// console.log(mers);
+// console.log(bmw);
 
 
+// function copyObj(obj) {
+//   let objCopy = {};
+//     for(let key in obj){
+//       objCopy[key] = obj[key];
+//     }
+//     return objCopy;
+// }
+//===============================
+
+// const nexiaR3 = {
+//   color: "black",
+//   isBuy: false,
+//   shum: {
+//     a: 100,
+//     b: 200,
+//   },
+// };
 
 
+// const spark = copyObj(nexiaR3);
+// spark.shum.a = 300;
+// console.log(spark);
+// console.log(nexiaR3);
 
+// spark.color = 'white';
+//====================================
 
+// const malibu = {
+//   color: 'red',
+//   isBuy: 'true',
+// };
 
+// const extra = {
+//   shum: 100,
+// };
 
+// console.log(Object.assign(malibu, extra));
 
+// const newCar = Object.assign({}, malibu);
+// newCar.isBuy = false;
+// console.log(newCar);  
+// console.log(malibu);
 
+//========================
 
+// const arr = [1,2,3,4];
+// const newArr = arr.slice(); //slice() nusxalaydi.
 
+// newArr[1] = 22;
+// console.log(arr);
+// console.log(newArr);
 
+//===========================
 
+// const cars = ['bmw', 'mers', 'wolksvagen'],
+//       plane = ['German', 'UzbAirways', 'Turkish'],
+//       technology = [...cars, ...plane,'matiz'];//hammasini birlashtiradi ... ta
+// console.log(technology);
 
+//==================
 
+// function number (a, b, ...c ) {
+//   console.log(a,b,c);
+// }
 
+// number(1,2,3,4,5,6,7)
 
+//==================
 
+// function func(a,b,c) {
+//   console.log(a);
+//   console.log(b);
+//   console.log(c);
+// }
 
-
-
-
-
-
+// const numbers = [1,2,3];
+// func(...numbers);
 
 
 
