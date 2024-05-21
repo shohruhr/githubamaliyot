@@ -433,19 +433,62 @@
 // console.log(counter);
 
 
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<21>>>>>>>>>>>>>>>>>>>>>>>
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<22>>>>>>>>>>>>>>>>>>>>>>>
+
+// "use strict";
+
+// const arr = [1, 2, 3, 4];
+
+// arr.unshift(0);// boshidan qo'shadi belgini
+// console.log(arr);
+
+// arr.shift()
+// console.log(arr); //boshdan 1 taelementni oladi
+
+// massivga qo'shish va olib tashlash
+
+// //arr.pop();//massivni oxiridan delete qiladi pop()
+//arr.push(5); //qo'shadi oxiriga push()
+//console.log(arr)
+
+// //----------
+// for(let i = 0; i < arr.length; i++){
+//   console.log(arr[i]);
+// }
 
 
+//for (let key of arr) { // val bolsa shuncha takrorlaydi key bolsa faqat ozi chiqadi
+//  console.log(key);
+//}
+
+// const colors = ["red", "black", "crimson"];
+
+// colors.forEach (function(item, index, arr) { //ozimizdan yoziladi. func ichiga
+//   console.log(item, index, arr);
+// });
+
+//=============
 
 
+// const questions = prompt("", "");
+// const answers = questions.split(",");
+
+// console.log(answers);
+// console.log(answers.join('; '));
 
 
+// const number = [2, 10, 17, 24, 8];
+
+// number.sort(sortArr);// birinchi raqamdan taxlaydi [ 10, 17, 2, 24, 8 ]
+// console.log(number);
+
+// function sortArr(a, b) { // kattaligi bo'yicha taxlaydi number.sort(sortArr); qiymati berilsa
+//      return a - b;       //[ 2, 8, 10, 17, 24 ]
+// } 
 
 
-
-
-
-
-
+//<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<23>>>>>>>>>>>>>>>>>>>>>>
 
 
 
